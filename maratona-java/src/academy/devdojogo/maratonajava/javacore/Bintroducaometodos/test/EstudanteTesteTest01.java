@@ -19,5 +19,9 @@ public class EstudanteTesteTest01 {
 
         impressora.imprime(estudante01);
         impressora.imprime(estudante02);
+        System.out.println("###########");
+        impressora.imprime(estudante01);
+        impressora.imprime(estudante02);
+        // quando eu altero o valor do objeto no final da execução na método, todos os objetos dos parâmetros são alterados
     }
 }
