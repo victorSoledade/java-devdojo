@@ -14,5 +14,8 @@ public class PessoaTest01 {
 
         System.out.println(pessoa.getNome());
         System.out.println(pessoa.getIdade());
+        System.out.println();
+
+        pessoa.imprime();
     }
 }
